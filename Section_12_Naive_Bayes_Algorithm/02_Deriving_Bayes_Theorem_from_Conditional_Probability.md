@@ -44,7 +44,7 @@ Both $P(A \cap B)$ and $P(B \cap A)$ represent the **same event**: it is raining
 So:
 
 $$
-P(A \mid B)\,P(B) = P(B \mid A)\,P(A)
+P(A \mid B) \times P(B) = P(B \mid A) \times P(A)
 $$
 
 ---

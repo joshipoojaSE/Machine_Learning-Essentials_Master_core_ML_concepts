@@ -49,7 +49,7 @@ So, even though the test detects the disease 90% of the time in people who have 
 The formula is:
 
 $$
-P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B)}
+P(A \mid B) = \frac{P(B \mid A) \times P(A)}{P(B)}
 $$
 
 Let's understand each part (A = "has the disease", B = "test is positive"):
@@ -71,7 +71,7 @@ So $P(A \mid B)$ means *"the probability of A, given that B has happened."*
 First, the overall chance of a positive test (true positives + false positives):
 
 $$
-P(B) = P(B \mid A)\,P(A) + P(B \mid \neg A)\,P(\neg A) = (0.90)(0.01) + (0.05)(0.99) = 0.009 + 0.0495 = 0.0585
+P(B) = P(B \mid A) \times P(A) + P(B \mid \neg A) \times P(\neg A) = (0.90)(0.01) + (0.05)(0.99) = 0.009 + 0.0495 = 0.0585
 $$
 
 Then apply Bayes' Theorem:
