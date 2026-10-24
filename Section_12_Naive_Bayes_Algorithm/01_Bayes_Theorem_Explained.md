@@ -57,6 +57,7 @@ Let's understand each part (A = "has the disease", B = "test is positive"):
 | Symbol | Simple meaning | Value in our example |
 |---|---|---|
 | $P(A)$ | Probability of the disease **before** the test (prior) | 0.01 |
+| $P(\neg A)$ | Probability of **not** having the disease | 1 − 0.01 = 0.99 |
 | $P(B \mid A)$ | Probability of a positive test **if** the person has the disease (likelihood) | 0.90 |
 | $P(B \mid \neg A)$ | Probability of a positive test if the person does **not** have the disease | 0.05 |
 | $P(B)$ | **Overall** probability of getting a positive test (evidence) | 0.0585 |
@@ -65,6 +66,8 @@ Let's understand each part (A = "has the disease", B = "test is positive"):
 The vertical bar `|` means **"given that."**
 
 So $P(A \mid B)$ means *"the probability of A, given that B has happened."*
+
+The symbol `¬` means **"NOT."** So $\neg A$ means *"A does not happen"* — here, *"the person does **not** have the disease."*
 
 ### Plugging in the numbers
 
